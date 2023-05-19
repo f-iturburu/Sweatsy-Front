@@ -1,0 +1,65 @@
+#offcanvas-nav{
+    z-index: 9999;
+    position: absolute;
+}
+
+#offcanvas-nav-mobile{
+    z-index: 9999;
+    position: absolute;
+}
+
+
+#offcanvas-nav:not(:hover){
+    min-width: 3%;
+    transition-duration: 0.2s;
+}
+
+#nav-item-text{
+    display: none;
+    font-size: 0.9em;
+}
+
+#nav-item-text-mobile{
+    font-size: 0.9em;
+}
+
+#nav-logo{
+    display: none !important;
+    cursor: pointer;
+}
+
+#item-container{
+    color: rgb(192, 192, 192) !important;
+    text-decoration: none !important;
+}
+
+#item-container-mobile{
+    color: rgb(192, 192, 192) !important;
+    text-decoration: none !important;
+}
+
+#item-container:hover{
+    color: rgb(255, 255, 255) !important;
+    transition-duration: 0.3s !important;
+    cursor: pointer;
+}
+
+.fa-1x{
+    font-size: 1.2em !important;
+}
+
+#offcanvas-nav:hover{
+    min-width: 5%;
+    transition-duration: 0.2s;
+}
+
+#offcanvas-nav:hover #nav-item-text{
+    transition-duration: 0.2s;
+    display: block !important;
+}
+
+#offcanvas-nav:hover #nav-logo{
+    transition-duration: 0.2s;
+    display: block !important;
+}
+

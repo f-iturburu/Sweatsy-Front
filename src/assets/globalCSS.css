@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.righteous-font{
+    font-family: 'Righteous', regular;
+}
+
+.bg-nav {
+  background-color: #0b1029;
+}
+
+.bg-body{
+  background-color: #101633 !important;
+}
+
+.bg-blue {
+  background-color: #1c1f46 !important;
+}
+
+.bg-light-blue {
+  background-color: #24285a !important;
+}
+
+.bg-lighter-blue {
+  background-color: #303b7a !important;
+}
+
+.bg-lightest-blue{
+    background-color: #4D5FC4 !important;
+}
+
+.min-height-100{
+    min-height: 100vh;
+}
